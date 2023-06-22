@@ -7,3 +7,9 @@
   min-height: 100vh;
   min-width: 70vh;
 }
+
+.adfit {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
