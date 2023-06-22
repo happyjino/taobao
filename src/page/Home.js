@@ -18,6 +18,12 @@ const Home = () => {
         <p>- 맞지 않는 정보나 원하는 기능, 문의사항은 아래 메일로 주세요</p>
         <p>hahainfo99@gmail.com</p>
       </div>
+      <GoogleAdvertise
+        client="ca-pub-1065077543854507"
+        slot="1602435989"
+        format="auto"
+        responsive="true"
+      />
     </div>
   )
 }
