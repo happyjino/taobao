@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 
-const GoogleAdvertise = ({
+export const GoogleAdvertise = ({
   className = "adsbygoogle",
   client = "",
   slot = "",

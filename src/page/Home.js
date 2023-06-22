@@ -1,5 +1,6 @@
 import { useEffect } from "react";
 import TopBar from "../component/TopBar";
+import { GoogleAdvertise } from "../component/GoogleAdvertise";
 
 const Home = () => {
   
