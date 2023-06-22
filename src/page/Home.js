@@ -32,9 +32,7 @@ const Home = () => {
         <p>- 쇼핑몰 옆의 설명은 임의로 적었어요</p>
         <p>- 맞지 않는 정보나 원하는 기능, 문의사항은 아래 메일로 주세요</p>
         <p>hahainfo99@gmail.com</p>
-      </div>
-      <div className="adfit" />
-      
+      </div>      
     </div>
   )
 }

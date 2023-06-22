@@ -75,7 +75,6 @@ const ShopList = () => {
           })}
         </table>
       </div>
-      <div className="adfit" />
     </div>
   )
 }

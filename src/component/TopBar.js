@@ -18,6 +18,7 @@ const TopBar = () => {
       <div className="title" onClick={() => navigate('/')}>
         타오바오 추천 사이트
       </div>
+      <div className="adfit" />
       <header className="nav-bar">
         {cateList.map((item, index) => {
           return <div key={index} className="cate" onClick={() => navigate(`/shop?cate=${item}`)}>{cateName[item]}</div>
