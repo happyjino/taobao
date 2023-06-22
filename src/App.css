@@ -9,6 +9,6 @@
 }
 
 .adfit2 {
-  position: absolute;
+  position: sticky;
   bottom: 0px;
 }
