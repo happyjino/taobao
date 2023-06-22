@@ -1,0 +1,33 @@
+.shop-list .rank-box {
+  display: flex;
+  justify-content: center;
+}
+
+.shop-list .rank-box img{
+  width: 50px;
+  margin: 0px 30px;
+  cursor: pointer;
+}
+
+.shop-list .rank-box .clicked {
+  border-bottom: 3px solid black;
+}
+
+.shop-list .site-list .shop-list-table {
+  width: 100%;
+}
+
+.shop-list .site-list .qr-button{
+  position: relative;
+}
+
+.shop-list .site-list .qr-code {
+  display: none;
+}
+
+.shop-list .site-list .qr-button:hover .qr-code{
+  display: flex;
+  position: absolute;
+  left: 70px;
+  top: -90px;
+}

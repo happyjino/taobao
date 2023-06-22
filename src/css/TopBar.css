@@ -1,0 +1,33 @@
+.top-bar {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  margin-bottom: 20px;
+}
+
+.top-bar .title {
+  width: 50%;
+  font-size: 50px;
+  cursor: pointer;
+}
+
+.top-bar .nav-bar {
+  margin: 20px 0px;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.top-bar .nav-bar .cate {
+  width: 100%;
+  padding: 10px;
+  margin: 0px 40px;
+  font-size: 25px;
+  cursor: pointer;
+
+  color: #302903;
+  border-radius: 10px;
+  background-color: #c1ac21;
+}

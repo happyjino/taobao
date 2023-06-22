@@ -1,0 +1,18 @@
+.home {
+  /* width: 100%; */
+}
+
+
+.home .taobao-link {
+  margin-top: 30px;
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 10px;
+
+  font-size: 30px;
+  text-decoration: none;
+}
+
+.home .content {
+  margin-top: 50px;
+}
