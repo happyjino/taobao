@@ -23,8 +23,23 @@ const TopBar = () => {
     ins.setAttribute('data-ad-width','320');
     ins.setAttribute('data-ad-height','50');
     ins.setAttribute('data-ad-unit','DAN-H6lF6kPLLCXN0yti');
-    document.querySelector('.adfit').appendChild(ins);
-    document.querySelector('.adfit').appendChild(scr);
+    document.querySelector('.adfit1').appendChild(ins);
+    document.querySelector('.adfit1').appendChild(scr);
+  }, [])
+
+  useEffect(()=>{
+    let ins = document.createElement('ins');
+    let scr = document.createElement('script');
+    ins.className = 'kakao_ad_area';
+    ins.style = "display:none; width:100%;";
+    scr.async = 'true';
+    scr.type = "text/javascript";
+    scr.src = "//t1.daumcdn.net/kas/static/ba.min.js";
+    ins.setAttribute('data-ad-width','320');
+    ins.setAttribute('data-ad-height','50');
+    ins.setAttribute('data-ad-unit','DAN-IKW5Iw58dB6XvXdp');
+    document.querySelector('.adfit2').appendChild(ins);
+    document.querySelector('.adfit2').appendChild(scr);
   }, [])
 
 
@@ -33,12 +48,13 @@ const TopBar = () => {
       <div className="title" onClick={() => navigate('/')}>
         타오바오 추천 사이트
       </div>
-      <div className="adfit" />
+      <div className="adfit1" />
       <header className="nav-bar">
         {cateList.map((item, index) => {
           return <div key={index} className="cate" onClick={() => navigate(`/shop?cate=${item}`)}>{cateName[item]}</div>
         })}
       </header>
+      <div className="adfit2" />
     </div>
   )
 }
