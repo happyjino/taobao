@@ -21,8 +21,8 @@ const TopBar = () => {
     scr.async = 'true';
     scr.type = "text/javascript";
     scr.src = "//t1.daumcdn.net/kas/static/ba.min.js";
-    ins.setAttribute('data-ad-width','320');
-    ins.setAttribute('data-ad-height','50');
+    ins.setAttribute('data-ad-width','160');
+    ins.setAttribute('data-ad-height','600');
     ins.setAttribute('data-ad-unit','DAN-H6lF6kPLLCXN0yti');
     document.querySelector('.adfit1').appendChild(ins);
     document.querySelector('.adfit1').appendChild(scr);

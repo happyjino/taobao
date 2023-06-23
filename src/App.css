@@ -8,7 +8,7 @@
   min-width: 70vh;
 }
 
-.adfit2 {
-  position: sticky;
-  bottom: 0px;
+.adfit1 {
+  position: absolute;
+  right: 0px;
 }
